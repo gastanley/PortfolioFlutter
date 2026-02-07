@@ -33,7 +33,7 @@ class NavBar extends StatelessWidget {
               NavItem(title: "Accueil", onTap: onTapAccueil),
               NavItem(title: "Compétences", onTap: onTapSkills),
               NavItem(title: "Projets", onTap: onTapProjets),
-              NavItem(title: "À propos", onTap: onTapAbout),
+              NavItem(title: "Contact", onTap: onTapAbout),
             ],
           ),
         ],
