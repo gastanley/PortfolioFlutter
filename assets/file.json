@@ -1,0 +1,28 @@
+{
+	"items":[
+	{
+	  "id":"1000",
+	  "nom":"GASTON Stan",
+	  "cin":"123-456-789-123",
+	  "statut":"stagiaire"
+	},
+	{
+	  "id":"1001",
+	  "nom":"GASTON Ash",
+	  "cin":"987-987-654-321",
+	  "statut":"Caissière"
+	},
+	{
+	  "id":"1002",
+	  "nom":"Andriakoto Reine",
+	  "cin":"123-456-456-789",
+	  "statut":"DAF"
+	},
+	{
+	  "id":"1003",
+	  "nom":"GASTON Steeve",
+	  "cin":"012-123-234-456",
+	  "statut":"DG"
+	}
+	]
+}
