@@ -81184,7 +81184,7 @@ return A.S(A.X2(q,B.nx),$async$mv)
 case 5:case 3:return A.M(null,r)}})
 return A.N($async$mv,r)},
 N(a){var s=this,r=null,q=t.E,p=A.lS(A.c([s.a0I(s.e,B.nn,"Nom"),B.kK,s.a0J(s.f,B.EU,!0,"Email"),B.kK,s.a0K(s.r,B.EW,"Message",4),B.Ot,A.aun(B.Fe,B.TV,s.gabg(),A.auo(r,r,B.di,r,r,r,r,r,r,B.k,r,r,B.Eg,r,new A.cS(A.hx(8),B.q),r,r,r,r,r))],q),B.aR,B.av)
-return A.fV(r,A.lS(A.c([B.TW,B.kL,B.TQ,B.hK,new A.fU(B.A7,new A.xM(p,B.ik,s.d),r),B.Ov,A.mP(A.c([s.AG(B.ER,new A.aie(s),"GitHub"),B.yv,s.AG(B.EQ,new A.aif(s),"LinkedIn"),B.yv,s.AG(B.F1,new A.aig(s),"Email direct")],q),B.k0,B.av,0),B.hK,B.DC,B.kL,A.ev("\xa9 2025 - Portfolio cr\xe9\xe9 avec Flutter Web",r,r,r,A.azE().$2$color$fontSize(B.hb,11),r,r)],q),B.aR,B.av),B.y,B.C9,r,r,r,r,r,B.Ed,r,r,1/0)},
+return A.fV(r,A.lS(A.c([B.TW,B.kL,B.TR,B.hK,new A.fU(B.A7,new A.xM(p,B.ik,s.d),r),B.Ov,A.mP(A.c([s.AG(B.ER,new A.aie(s),"GitHub"),B.yv,s.AG(B.EQ,new A.aif(s),"LinkedIn"),B.yv,s.AG(B.F1,new A.aig(s),"Email direct")],q),B.k0,B.av,0),B.hK,B.DC,B.kL,A.ev("\xa9 2025 - GASTON Stanley, Portfolio cr\xe9\xe9 avec Flutter Web",r,r,r,A.azE().$2$color$fontSize(B.hb,11),r,r)],q),B.aR,B.av),B.y,B.C9,r,r,r,r,r,B.Ed,r,r,1/0)},
 AG(a,b,c){var s=null
 return A.aqH(s,s,new A.Iw(a,22,s,s,s,s,B.H,s,s,s,s,s,s,s),s,s,b,s,A.aqI(s,s,s,s,s,s,s,s,s,A.aG(B.d.aB(25.5),B.di.C()>>>16&255,B.di.C()>>>8&255,B.di.C()&255),s,s,s,B.E5,s,s,s),c)},
 AH(a,b,c,d,e){var s=null,r=A.aqG(b,s,s,B.di,s,s,s,s,s,s,s,20,s,s),q=A.hx(8),p=A.hx(8)
@@ -81199,7 +81199,7 @@ A.aif.prototype={
 $0(){return this.a.mv("https://www.linkedin.com/in/stanley-gaston-755b21250/")},
 $S:0}
 A.aig.prototype={
-$0(){return this.a.mv("mailto:gastonstanley17@pgmail.com")},
+$0(){return this.a.mv("mailto:gastonstanley17@gmail.com")},
 $S:0}
 A.aid.prototype={
 $1(a){if(a.length===0)return"Ce champ est requis"
@@ -81302,7 +81302,7 @@ N(a){var s=null
 return A.arl(A.ev(this.c,s,s,s,B.Tj,s,s),this.d,s)}}
 A.Kd.prototype={
 N(a){var s=this,r=null,q=A.aG(B.d.aB(229.5),B.fi.C()>>>16&255,B.fi.C()>>>8&255,B.fi.C()&255),p=t.E
-return A.fV(r,A.mP(A.c([B.TT,A.mP(A.c([new A.oY("Accueil",s.c,r),new A.oY("Comp\xe9tences",s.d,r),new A.oY("Projets",s.e,r),new A.oY("Contact",s.f,r)],p),B.bn,B.av,0)],p),B.h8,B.av,0),B.y,q,r,r,r,70,r,B.Eh,r,r,1/0)}}
+return A.fV(r,A.mP(A.c([B.TP,A.mP(A.c([new A.oY("Accueil",s.c,r),new A.oY("Comp\xe9tences",s.d,r),new A.oY("Projets",s.e,r),new A.oY("Contact",s.f,r)],p),B.bn,B.av,0)],p),B.h8,B.av,0),B.y,q,r,r,r,70,r,B.Eh,r,r,1/0)}}
 A.hP.prototype={}
 A.Ka.prototype={
 N(a){var s=null
@@ -87166,7 +87166,7 @@ B.OD=new A.jE(3,"hide")
 B.X8=new A.jE(4,"remove")
 B.OE=new A.jE(5,"timeout")
 B.OF=new A.tI(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.TR=new A.fG("\xc9chec de l'envoi. Veuillez r\xe9essayer ou utiliser l'ic\xf4ne email.",null,null,null,null,null,null,null,null)
+B.TS=new A.fG("\xc9chec de l'envoi. Veuillez r\xe9essayer ou utiliser l'ic\xf4ne email.",null,null,null,null,null,null,null,null)
 B.Cz=new A.u(1,1,0.9215686274509803,0.9333333333333333,B.e)
 B.C3=new A.u(1,1,0.803921568627451,0.8235294117647058,B.e)
 B.BU=new A.u(1,0.9372549019607843,0.6039215686274509,0.6039215686274509,B.e)
@@ -87179,10 +87179,10 @@ B.CG=new A.u(1,0.7176470588235294,0.10980392156862745,0.10980392156862745,B.e)
 B.JJ=new A.cF([50,B.Cz,100,B.C3,200,B.BU,300,B.CS,400,B.CY,500,B.CN,600,B.Cq,700,B.m4,800,B.Cy,900,B.CG],t.pl)
 B.JQ=new A.mq(B.JJ,1,0.9568627450980393,0.2627450980392157,0.21176470588235294,B.e)
 B.iU=new A.aS(4e6)
-B.OG=new A.l6(B.TR,B.JQ,null,null,null,null,null,null,null,null,null,null,null,B.iU,!1,null,null,null,B.Y,null)
-B.TP=new A.fG("Envoi de votre message...",null,null,null,null,null,null,null,null)
-B.OH=new A.l6(B.TP,null,null,null,null,null,null,null,null,null,null,null,null,B.iU,!1,null,null,null,B.Y,null)
-B.TS=new A.fG("Message envoy\xe9 avec succ\xe8s !",null,null,null,null,null,null,null,null)
+B.OG=new A.l6(B.TS,B.JQ,null,null,null,null,null,null,null,null,null,null,null,B.iU,!1,null,null,null,B.Y,null)
+B.TQ=new A.fG("Envoi de votre message...",null,null,null,null,null,null,null,null)
+B.OH=new A.l6(B.TQ,null,null,null,null,null,null,null,null,null,null,null,null,B.iU,!1,null,null,null,B.Y,null)
+B.TT=new A.fG("Message envoy\xe9 avec succ\xe8s !",null,null,null,null,null,null,null,null)
 B.CU=new A.u(1,0.9098039215686274,0.9607843137254902,0.9137254901960784,B.e)
 B.C1=new A.u(1,0.7843137254901961,0.9019607843137255,0.788235294117647,B.e)
 B.CL=new A.u(1,0.6470588235294118,0.8392156862745098,0.6549019607843137,B.e)
@@ -87195,7 +87195,7 @@ B.Ci=new A.u(1,0.1803921568627451,0.49019607843137253,0.19607843137254902,B.e)
 B.BY=new A.u(1,0.10588235294117647,0.3686274509803922,0.12549019607843137,B.e)
 B.JM=new A.cF([50,B.CU,100,B.C1,200,B.CL,300,B.D_,400,B.Cu,500,B.CW,600,B.CZ,700,B.BJ,800,B.Ci,900,B.BY],t.pl)
 B.JS=new A.mq(B.JM,1,0.2980392156862745,0.6862745098039216,0.3137254901960784,B.e)
-B.OI=new A.l6(B.TS,B.JS,null,null,null,null,null,null,null,null,null,null,null,B.iU,!1,null,null,null,B.Y,null)
+B.OI=new A.l6(B.TT,B.JS,null,null,null,null,null,null,null,null,null,null,null,B.iU,!1,null,null,null,B.Y,null)
 B.yx=new A.AC(0,"permissive")
 B.OJ=new A.AC(1,"normal")
 B.OK=new A.AC(2,"forced")
@@ -87558,9 +87558,9 @@ B.St=new A.m(!0,B.I,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.SP=new A.m(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"blackRedwoodCity labelMedium",null,null,null,null)
 B.PP=new A.m(!0,B.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.TN=new A.dz(B.RB,B.QC,B.RC,B.S6,B.Qe,B.Qm,B.QW,B.RW,B.R8,B.Sz,B.PH,B.PX,B.St,B.SP,B.PP)
-B.TQ=new A.fG("Disponible pour de nouvelles opportunit\xe9s Flutter & Fullstack",null,B.yT,B.dC,null,null,null,null,null)
 B.SJ=new A.m(!0,B.a1,null,null,null,null,null,B.aY,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.TT=new A.fG("GS",null,B.SJ,null,null,null,null,null,null)
+B.TP=new A.fG("PORTFOLIO",null,B.SJ,null,null,null,null,null,null)
+B.TR=new A.fG("Disponible pour de nouvelles opportunit\xe9s Flutter & Fullstack",null,B.yT,B.dC,null,null,null,null,null)
 B.TU=new A.fG("T\xc9L\xc9CHARGER MON CV",null,null,null,null,null,null,null,null)
 B.TV=new A.fG("ENVOYER UN MESSAGE",null,null,null,null,null,null,null,null)
 B.Tc=new A.m(!0,B.k,null,null,null,null,null,B.aY,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
