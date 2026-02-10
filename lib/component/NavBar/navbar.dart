@@ -25,7 +25,7 @@ class NavBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          const Text("GS",
+          const Text("PORTFOLIO",
               style: TextStyle(
                   color: Colors.cyanAccent, fontWeight: FontWeight.bold)),
           Row(

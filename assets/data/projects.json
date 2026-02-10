@@ -7,11 +7,11 @@
             "Dart"
         ],
         "githubUrl": "https://github.com/gastanley/PortfolioFlutter.git",
-        "imageUrl": "assets/images/codegen.png"
+        "imageUrl": "assets/images/screenshot.png"
     },
     {
         "title": "CodeGen",
-        "desc": "Générateur automatique de boilerplate Laravel.",
+        "desc": "API REST pour générer automatiquement un mot de passe robuste",
         "tags": [
             "Laravel",
             "PHP",
@@ -22,7 +22,7 @@
     },
     {
         "title": "JobWatcher",
-        "desc": "Scraping d'offres et interface de suivi temps réel.",
+        "desc": "Application de scraping d'offres et interface de suivi temps réel",
         "tags": [
             "Flutter",
             "Dart",
@@ -34,7 +34,7 @@
     },
     {
         "title": "Mitendry",
-        "desc": "Analyse prédictive avec intégration de modèle ML.",
+        "desc": "Application web avec intégration de modèle ML OMR capable de détecter les éléments dans une image solfège",
         "tags": [
             "React TS",
             "TensorFlow",

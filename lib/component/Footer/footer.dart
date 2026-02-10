@@ -192,7 +192,7 @@ class _FooterState extends State<Footer> {
           const SizedBox(height: 40),
           const Divider(color: Colors.white10),
           const SizedBox(height: 20),
-          Text("© 2025 - Portfolio créé avec Flutter Web",
+          Text("© 2025 - GASTON Stanley, Portfolio créé avec Flutter Web",
               style: GoogleFonts.inter(color: Colors.grey, fontSize: 11)),
         ],
       ),
