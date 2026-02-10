@@ -24,7 +24,7 @@ class _FooterState extends State<Footer> {
   final String templateId = 'template_242o6vp';
   final String publicKey = 'ZB34osorF592R1GHt';
 
-  final String myEmail = "gastonstanley17@pgmail.com";
+  final String myEmail = "gastonstanley17@gmail.com";
   final String githubUrl = "https://github.com/gastanley";
   final String linkedinUrl =
       "https://www.linkedin.com/in/stanley-gaston-755b21250/";
