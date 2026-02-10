@@ -22,7 +22,7 @@ class _FooterState extends State<Footer> {
   // Remplacez ces valeurs par celles de votre tableau de bord EmailJS
   final String serviceId = 'service_gddj4pj';
   final String templateId = 'template_242o6vp';
-  final String publicKey = 'LJMuqiNS2TcZ2ATz-wISQ';
+  final String publicKey = 'ZB34osorF592R1GHt';
 
   final String myEmail = "gastonstanley17@pgmail.com";
   final String githubUrl = "https://github.com/gastanley";
@@ -58,6 +58,9 @@ class _FooterState extends State<Footer> {
           }),
         );
 
+        print('EmailJS Response Status: ${response.statusCode}');
+        print('EmailJS Response Body: ${response.body}');
+
         if (response.statusCode == 200) {
           // Succès de l'envoi
           _nameController.clear();
@@ -73,9 +76,10 @@ class _FooterState extends State<Footer> {
             ),
           );
         } else {
-          throw Exception('Erreur serveur');
+          throw Exception('Erreur serveur: ${response.body}');
         }
       } catch (e) {
+        print('EmailJS Error: $e');
         // Gestion de l'erreur
         if (!mounted) return;
         ScaffoldMessenger.of(context).clearSnackBars();

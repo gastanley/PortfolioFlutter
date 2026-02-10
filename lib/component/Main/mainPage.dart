@@ -1,56 +1,43 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter/services.dart';
 import 'package:portfolio/component/Card/projetCard.dart';
+import 'package:portfolio/component/Project/models/projectModel.dart';
 
 class Mainpage extends StatelessWidget {
   const Mainpage({super.key});
 
+  // Cette fonction simule ton futur appel API
+  Future<List<ProjectModel>> loadProjects() async {
+    // AUJOURD'HUI : On lit le fichier local
+    final String response =
+        await rootBundle.loadString('assets/data/projects.json');
+
+    // DEMAIN : Tu remplaceras la ligne du haut par celle-ci :
+    // final response = await http.get(Uri.parse('https://ton-api-laravel.com/projects'));
+
+    final List<dynamic> data = json.decode(response);
+    return data.map((json) => ProjectModel.fromJson(json)).toList();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 60, horizontal: 20),
-      child: Column(
-        children: [
-          Text("MES RÉALISATIONS",
-              style: GoogleFonts.lexend(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.cyanAccent)),
-          const SizedBox(height: 40),
-          const Wrap(
+    return FutureBuilder<List<ProjectModel>>(
+      future: loadProjects(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Center(child: CircularProgressIndicator()); // Chargement
+        } else if (snapshot.hasError) {
+          return const Center(child: Text("Erreur de chargement"));
+        } else {
+          final projects = snapshot.data!;
+          return Wrap(
             spacing: 25,
             runSpacing: 25,
-            alignment: WrapAlignment.center,
-            children: [
-              ProjectCard(
-                  title: "App Métier (Stage L3)",
-                  desc: "Architecture Clean & Riverpod. Projet confidentiel.",
-                  tags: ["Flutter", "Dart"],
-                  isSecret: true),
-              ProjectCard(
-                  title: "CodeGen",
-                  desc: "Générateur automatique de boilerplate Laravel.",
-                  tags: ["Laravel", "PHP", "MySQL"],
-                  githubUrl: "https://github.com/gastanley/codeGenAPI.git"),
-              ProjectCard(
-                  title: "JobWatcher",
-                  desc: "Scraping d'offres et interface de suivi temps réel.",
-                  tags: ["Python", "Django", "Flutter"],
-                  githubUrl: "https://github.com/gastanley/Job_watcher.git"),
-              ProjectCard(
-                  title: "Mitendry",
-                  desc: "Analyse prédictive avec intégration de modèle ML.",
-                  tags: ["React TS", "TensorFlow", "Django"],
-                  githubUrl: "https://github.com/gastanley/mi-tendry.git"),
-              ProjectCard(
-                  title: "Portfolio",
-                  desc: "Portfolio personnel avec Flutter",
-                  tags: ["Flutter", "Dart"],
-                  githubUrl: "https://github.com/gastanley/mi-tendry.git"),
-            ],
-          ),
-        ],
-      ),
+            children: projects.map((p) => ProjectCard(project: p)).toList(),
+          );
+        }
+      },
     );
   }
 }

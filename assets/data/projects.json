@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Portfolio",
+        "desc": "Portfolio personnel avec Flutter",
+        "tags": [
+            "Flutter",
+            "Dart"
+        ],
+        "githubUrl": "https://github.com/gastanley/PortfolioFlutter.git",
+        "imageUrl": "assets/images/codegen.png"
+    },
+    {
+        "title": "CodeGen",
+        "desc": "Générateur automatique de boilerplate Laravel.",
+        "tags": [
+            "Laravel",
+            "PHP",
+            "MySQL"
+        ],
+        "githubUrl": "https://github.com/gastanley/codeGenAPI.git",
+        "imageUrl": "assets/images/codegen.png"
+    },
+    {
+        "title": "JobWatcher",
+        "desc": "Scraping d'offres et interface de suivi temps réel.",
+        "tags": [
+            "Flutter",
+            "Dart",
+            "Django",
+            "PostgreSQL"
+        ],
+        "githubUrl": "https://github.com/gastanley/Job_watcher.git",
+        "imageUrl": "assets/images/jobwatcher.png"
+    },
+    {
+        "title": "Mitendry",
+        "desc": "Analyse prédictive avec intégration de modèle ML.",
+        "tags": [
+            "React TS",
+            "TensorFlow",
+            "Django"
+        ],
+        "githubUrl": "https://github.com/gastanley/mi-tendry.git",
+        "imageUrl": "assets/images/mitendry.png"
+    }
+]
